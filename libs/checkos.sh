@@ -1,0 +1,3 @@
+function checkos {
+os=$(uname)
+}
