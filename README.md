@@ -4,10 +4,11 @@ Script for creating and signing SSL certs
 # USAGE
 1. cp openssl-tpl.cnf openssl.cnf
 2. touch index.txt
-3. mkdir certs
-4. mkdir ca
-5. mkdir newcerts
-6. ./GENERATE.sh
+3. touch serial
+4. mkdir certs
+5. mkdir ca
+6. mkdir newcerts
+7. ./GENERATE.sh
 
 # Config Description (gen.cfg)
 * rca_days=  - RCA/CA validity (days)
