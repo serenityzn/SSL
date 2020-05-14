@@ -272,7 +272,7 @@ bg="\e[1;44m"
 color="\e[1;36m"
 end="\e[1;0m"
 
-printf "%-${leftoffset}s$bg$color%-${titlesize}s%-14s%-${titlesize}s${end}\n" "" "" "SSL GENERATION" ""
+printf "\n\n\n\n\n\n%-${leftoffset}s$bg$color%-${titlesize}s%-14s%-${titlesize}s${end}\n" "" "" "SSL GENERATION" ""
 
 for m in "${Menu[@]}"
 do
